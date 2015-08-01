@@ -38,6 +38,7 @@ gem 'bootstrap-sass', '~> 3.3.4'
 
 # Use unicorn as the app server
 # gem 'unicorn'
+gem 'will_paginate'
 
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
