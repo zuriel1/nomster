@@ -18,6 +18,15 @@ end
    @place = Place.find(params[:id])
   end
 
+ def edit
+   @place = Place.find(params[:id])
+end
+
+def update
+end
+@place = Place.find(params[:id])
+  @place.update_attributes(place_params)
+   redirect_to root_path
   private
 
   def place_params
