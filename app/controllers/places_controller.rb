@@ -24,9 +24,16 @@ end
 
 def update
 end
-@place = Place.find(params[:id])
+ @place = Place.find(params[:id])
   @place.update_attributes(place_params)
    redirect_to root_path
+
+def destroy
+  @place = Place.find(params[:id])
+  @place.destroy
+  redirect_to_root_path
+end
+
   private
 
   def place_params
