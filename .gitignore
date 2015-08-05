@@ -14,3 +14,7 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore application configuration
+/config/application.yml
+GEOCODER_API_KEY: "An5PsR-9f0BsLZ-aFmoBoOeil0XH8jp-eVd_NHuLhgRbKVf-n0XTm_m2D8ULQVhD"
