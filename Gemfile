@@ -49,6 +49,7 @@ gem 'will_paginate'
 
 gem "figaro", ">= 1.0.0"
 
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 
