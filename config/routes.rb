@@ -5,6 +5,8 @@ Nomster::Application.routes.draw do
     resources :comments, :only => :create
     resources :photo, :only => :create
   end
+   resources :users, :only => :show
+
   # You can have the root of your site routed with "root"
   # root 'welcome#index'r
 
